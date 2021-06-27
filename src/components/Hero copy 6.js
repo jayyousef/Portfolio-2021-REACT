@@ -1,20 +1,36 @@
 import React from "react";
-import src from ".././assets/Jay Yousef 2020 Reel _ Editor · Motion Graphics · Colorist.mp4"
+import githubImg from ".././assets/github.png"
+import linkedInImg from ".././assets/linkedin.png"
+import instaImg from ".././assets/instagram.png"
+import Resume from ".././assets/Resume.pdf"
 
-function Hero() {
+function Footer() {
   return (
-    <div id="hero">
-      <div class="texture"></div>
+  <div>
+    <p>Follow me on social media</p>
+      <div className="social-icons">
+          <a href="https://github.com/jayyousef">
+              <img alt="Github" src={githubImg} className="social-icon"></img>
+          </a>
+          <a href="https://www.linkedin.com/in/jay-yousef-4294aa41/">
+              <img alt="Linkedin" src={linkedInImg} className="social-icon"></img>
+          </a>
+          <a href="https://www.instagram.com/saintlouisvideos/">
+              <img alt="Instagram" src={instaImg} className="social-icon"></img>
+          </a>
 
-      <video loop muted autoplay preload="auto">
-        <source
-          src={src}
-          type="video/mp4"
-        ></source>
-        Your browser does not support the video tag.
-      </video>
-    </div>
+      </div>
+
+      <a href={Resume} className="resume">My Resume</a>
+      <br></br>
+      <p>Phone Number: 3149103461</p>
+      <p>Email: jay.yousef@gmail.com</p>
+      <br></br><br></br>
+
+      <p className="copyright">Copyright 2021 <a style="color: white;" href="https://github.com/jayyousef">Jay Yousef</a>
+      </p>
+</div>
   );
 }
 
-export default Hero;
+export default Footer;

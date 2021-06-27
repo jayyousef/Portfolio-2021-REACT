@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Welcome from "./components/Welcome"
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Welcome />
       <Intro />
       <Projects />
+      <Footer />
     </div>
   );
 }
