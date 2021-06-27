@@ -25,7 +25,7 @@ The site is a single page html document with css and images so installation is s
 The current website looks like this:
 
 Here is the mobile look and feel:
-![Live Screenshot](./assets/images/jyportfolio.gif)
+![Live Screenshot](./src/assets/jyportfolio.gif)
 
 
 ## Credits
