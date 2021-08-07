@@ -4,9 +4,18 @@ import techBlogImg from ".././assets/tech-blog-screenshot.png";
 import investImg from ".././assets/investment-wizard-demo.gif";
 import weatherImg from ".././assets/weatherApp.png";
 import quizImg from ".././assets/quiz-game-screenshot.png";
+import travelAppImage from ".././assets/deepwildsouthscreenshot.png";
 
 function Projects() {
   const projectInfo = [
+    {
+      image: travelAppImage,
+      alt: `"Do This Travel application "`,
+      title: `Do This® Travel App`,
+      desc: `A robust travel website with a simple UX and clean UI for the end user and admins, built for future SAS implementation with REACT`,
+      link: `https://do-this-travel.herokuapp.com/home`,
+      github: `https://github.com/jayyousef/mA-travel-app`,
+    },
     {
       image: jensHensImg,
       alt: `"Jenns Hens is a small ecomm site built for egg distributors."`,

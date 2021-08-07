@@ -380,28 +380,29 @@ z-index:15;
 
 
 #hero .caption {
-
-position:relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+position:absolute;
 z-index:20;
 text-align:center;
+top: 5px;
 color:#ffffff;
 }
 
 
 
 #hero .caption h1 {
-
-text-transform: uppercase;
 font-size:2em;
-font-family: 'Oswald', sans-serif;
+font-family: 'Arial', sans-serif;
 margin-bottom:0.5rem;
+color:#ffffff;
 }
 
 #hero .caption h2 {
 font-weight:400;
 font-size:1.5rem;
 margin:0;
-font-family: 'PT Sans', sans-serif;
+font-family: 'Arial', sans-serif;
 }
 
 
