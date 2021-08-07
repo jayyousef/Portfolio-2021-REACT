@@ -27,7 +27,7 @@ function Footer() {
       <p>Email: jay.yousef@gmail.com</p>
       <br></br><br></br>
 
-      <p className="copyright">Copyright 2021 <a style="color: white;" href="https://github.com/jayyousef">Jay Yousef</a>
+      <p className="copyright">Copyright 2021 <a style={{color: 'white'}} href="https://github.com/jayyousef">Jay Yousef</a>
       </p>
 </div>
   );
