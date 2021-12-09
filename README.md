@@ -20,7 +20,7 @@ The site is a single page html document with css and images so installation is s
 
 [Live Site -> Jay Yousef's Portfolio](https://jayyousef.github.io/portfolio-June-2021/) 
 
-## Usage 
+## Usage
 
 The current website looks like this:
 
