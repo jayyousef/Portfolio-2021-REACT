@@ -28,7 +28,7 @@ Here is the mobile look and feel:
 ![Live Screenshot](./src/assets/jyportfolio.gif)
 
 
-## Credits
+## Credits 
 
 * [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) helped with formatting the hero video
 * Mark Artim helped me utilize grid-box more creatively on my page
